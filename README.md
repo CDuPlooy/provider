@@ -5,3 +5,8 @@ and/or pseudo-servers.
 
 Pseudoservers register with a key, at this point it can request Provider to
 either save data to RAM or drives. Data is saved as key-value pairs.
+
+
+# Dependancies
+
+- mnl (I'll sort out versioning later)
