@@ -226,6 +226,7 @@ char *chttp_lookup(const p_custom_http chttp, const char *key);
 const short chttp_finalise(const p_custom_http chttp , const char *data, const size_t size);
 char *chttp_getData(const p_custom_http chttp);
 const char *_chttp_find(const char *buffer, const size_t bufferSize, const char *find, const size_t findSize);
+const short chttp_add_resp(const p_custom_http chttp, const char *resp);
 #endif
 #ifndef MAP_H
 #define MAP_H
